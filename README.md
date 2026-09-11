@@ -16,7 +16,7 @@ The workflow includes regex expressions which extract potential useful informati
 Referenced articles of Greek legislation, explicit waits for dynamically loaded elements, logging, error handling, and exports to JSON Lines and CSV.
 
 
-### 2. [Large-Scale Legal Document Classification]([https://alexpet2002.github.io/data_analysis_properties/](https://github.com/alexpet2002/applied_data_science_greek_legal_texts/blob/main/notebooks/embeddings_classification.ipynb)
+### 2. [Large-Scale Legal Document Classification](https://github.com/alexpet2002/applied_data_science_greek_legal_texts/blob/main/notebooks/embeddings_classification.ipynb)
 
 The goal of this notebook is classification whilst using traditional text representations and dense embeddings across three chapters: **Volume**, **Chapter**, and **Subject** of an already existing Huggings' Face dataset.
 
@@ -40,8 +40,8 @@ The project aims to get the best clustering, compares K-Means with Word2Vec embe
 
 The BERTopic and HDBSCAN pipeline identified **168 non-noise clusters** and achieved better separation by allowing irregular cluster shapes and leaving uncertain documents unassigned. Silhouette score at 
 
-### 4. Few-Shot Cluster Interpretation with Llama
-[Few-Shot Cluster Interpretation with Llama](https://github.com/alexpet2002/applied_data_science_greek_legal_texts/blob/main/notebooks/few_shot_learn.ipynb)
+### 4. [Few-Shot Cluster Interpretation with Llama](https://github.com/alexpet2002/applied_data_science_greek_legal_texts/blob/main/notebooks/few_shot_learn.ipynb)
+
 
 This project uses three-shot prompting to generate concise thematic descriptions for selected clusters.
 Two example-selection strategies are compared:
