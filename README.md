@@ -9,7 +9,7 @@ Greek legal documents present a demanding real-world data problem: the text is d
 
 ## Project overview
 
-### 1. [Greek Supreme Court Decision Collection](https://github.com/alexpet2002/applied_data_science_greek_legal_texts/blob/main/notebooks/crawling_scraping.ipynb)
+### 1. Greek Supreme Court Decision Collection
 
 A Selenium-based crawler collects 2024 civil and criminal decisions from the **Greek Supreme Court**. It converts semi-structured web pages to a format comparable to Hugging Face Greek legal dataset.
 The workflow includes regex expressions which extract potential useful information such as decision number and year, department ,judges, Introductory text and articles mentioned in the case
